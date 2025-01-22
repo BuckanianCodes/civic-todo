@@ -11,7 +11,9 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect(process.env.MONGO_URI)
+const mongoURI = process.env.MONGO_URI || 'mongodb+srv://kariukimark115:Burky12242@cluster0.kitbo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+
+mongoose.connect(mongoURI)
 mongoose.connection
         .once('open',()=>console.log("Connected to database"))
         .on('error',(e) =>console.log(e));
@@ -19,6 +21,6 @@ mongoose.connection
 app.use("/api",todoRouter)
 app.use("/health",(req,res) => {res.send("API is working okay")})
 
-app.listen(process.env.PORT, () => {
+app.listen(8080, () => {
     console.log("Server is running on port:8080")
  })
