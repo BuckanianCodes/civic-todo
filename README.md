@@ -1,4 +1,4 @@
-##INTRODUCTION
+## INTRODUCTION
 This is an API for a todo list application giving you the functionalities to:
 1. Get all todos available in the database.
 2. Get a single todo based of its id.
