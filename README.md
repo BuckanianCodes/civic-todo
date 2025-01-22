@@ -14,8 +14,8 @@ This is an API for a todo list application giving you the functionalities to:
 
 ## Prerequisites,tools and technologies
 [Nodejs v18>](https://nodejs.org/en/download) ,
-[Postman](https://www.postman.com/downloads/) or [Insomnia](https://insomnia.rest/)
-Expressjs
+[Postman](https://www.postman.com/downloads/) or [Insomnia](https://insomnia.rest/) ,
+Expressjs ,
 [MongoDb](https://www.mongodb.com/products/platform/atlas-database])
 
 
