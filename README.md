@@ -26,9 +26,10 @@ Expressjs ,
 
 2. Install Dependencies
  ```npm install```
-3. Create a Mongodb account(if you dont have any) and create a new deployment and get the connection string.
+
+4. Create a Mongodb account(if you dont have any) and create a new deployment and get the connection string.
    
-4. Create a .env file and store your connection string named MONGO_URI = connection string
+5. Create a .env file and store your connection string named MONGO_URI = connection string
 
 ## Usage
 Run the project 
